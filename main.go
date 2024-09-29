@@ -1,12 +1,14 @@
 package main
 
 import (
+	"fmt"
 	"github.com/ZinollinIlyas/LeetCode/easy"
-	"log"
 )
 
 func main() {
-	input := []int{3, 2, 3}
-	res := easy.TwoSum(input, 6)
-	log.Println(res)
+
+	res := easy.IsPalindrome(1000030001)
+
+	fmt.Println(res)
+
 }

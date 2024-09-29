@@ -1,7 +1,5 @@
 package easy
 
-import "log"
-
 func TwoSum(nums []int, target int) []int {
 	numMap := make(map[int]int)
 
@@ -9,7 +7,6 @@ func TwoSum(nums []int, target int) []int {
 		complement := target - num
 
 		if index, ok := numMap[complement]; ok {
-			log.Printf("ahahha %v", numMap)
 			return []int{index, i}
 		}
 
