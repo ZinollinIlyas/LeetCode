@@ -7,8 +7,6 @@ import (
 
 func main() {
 
-	res := easy.IsPalindrome(1000030001)
-
+	res := easy.RomanToInt("MCMXCIV")
 	fmt.Println(res)
-
 }
